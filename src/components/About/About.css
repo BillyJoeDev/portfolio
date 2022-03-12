@@ -1,0 +1,131 @@
+.about-wrapper {
+    background-color: #221b24;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-header {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #e08712;
+}
+
+.about-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 930px;
+    margin-top: 30px;
+}
+
+.who-is-section h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.who-is-section img {
+    height: 300px;
+    width: 300px;
+}
+
+.about-section {
+    width: 500px;
+}
+
+.about-section p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+.about-section h1 {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bolder;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-container h1 {
+    margin: -5px 0 0 9px;
+}
+
+.skill {
+    position: relative;
+    margin: 10px 30px 10px 0;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: #e08712;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 750px)
+{
+    .about-wrapper 
+    {
+        height: 1400px;
+    }
+    
+    .about-section-wrapper {
+        flex-direction: column;
+        width: 80%;
+        margin-top: 20px;
+    }
+    
+    .who-is-section img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .about-section {
+        width: 80%;
+    }
+    
+    .about-section p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .about-section h1 {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .skill-container h1 {
+        margin: 0;
+    }
+    
+    .skill {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+        margin: 15px 0 5px 0;
+    }
+}

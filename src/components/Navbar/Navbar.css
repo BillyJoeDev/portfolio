@@ -45,7 +45,7 @@ nav {
     } 
 } 
 
-ul {
+.navLinks {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -70,7 +70,102 @@ ul {
     border-bottom: 2px solid #e08712;
 }
 
-
 .navbar-item:hover {
     border-bottom: 2px solid #e08712;
+}
+
+.mobileNav, .mobileNavClose, .mobileNavMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 730px)
+{
+    .navLinks {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 14px;
+    }
+
+    .mobileNav {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        margin-right: 50px;
+        z-index: 999;
+    }
+
+    .mobileNav:hover {
+        color: #e08712;
+    }
+
+    .mobileNavClose {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        margin-right: 50px;
+        font-size: 40px;
+        z-index: 999;
+    }
+
+    .mobileNavClose:hover {
+        color: #e08712;
+    }
+
+    .mobileNavMenu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-140%);
+        overflow: hidden;
+        background-color: #161118;
+        z-index: 998;
+        animation: navbar-close 0.4s linear forwards;
+    }
+
+    .mobileNavMenu.show {
+        animation: navbar-open 0.4s linear forwards;
+    }
+
+    .mobilNavLinks {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-item {
+        height: 50px;
+        width: 100%;
+        font-size: 40px;
+        margin: 40px;
+    }
+    
+    .navbar-item:hover, .active {
+        color: #e08712;
+        border: none;
+    }
+
+    @keyframes navbar-open {
+        from {
+            transform: skew(-14deg) translateX(-140%);
+        } to {
+            transform: skew(0deg) translateX(0);
+        }
+    }
+
+    @keyframes navbar-close {
+        from {
+            transform: skew(0deg) translateX(0);
+        } to {
+            transform: skew(-14deg) translateX(-140%);
+        }
+    }
 }

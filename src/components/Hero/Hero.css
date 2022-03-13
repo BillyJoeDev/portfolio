@@ -107,7 +107,7 @@ header img {
     color: #e08712;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 750px)
+@media only screen and (min-width: 300px) and (max-width: 1315px)
 {
     header {
         height: 700px;
@@ -118,6 +118,7 @@ header img {
     }
     
     .hero-text-container {
+        text-align: center;
         width: 80%;
         animation: hero-load 1s ease-in-out;
     }
@@ -173,5 +174,33 @@ header img {
 
     .alt-color {
         color: #e08712;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px)
+{
+    header {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px)
+{
+    header {
+        padding-right: 0;
+    }
+
+    header img {
+        margin-right: 122px;
+        height: 600px;
+        width: 600px;
+    }
+}
+
+
+@media only screen and (min-width: 1367px) and (max-width: 1615px)
+{
+    header img {
+        margin-right: 66px;
     }
 }

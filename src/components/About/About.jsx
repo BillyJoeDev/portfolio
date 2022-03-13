@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <article className='about-wrapper' id='about'>
-        <h1 className='about-me-header'>ABOUT ME</h1>
+        <h1 className='about-me-header'>About Me</h1>
         <div className='about-section-wrapper'>
           <div className='who-is-section'>
             <h1>Who is Travis?</h1>

@@ -86,7 +86,7 @@
     grid-area: three;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 750px)
+@media only screen and (min-width: 300px) and (max-width: 768px)
 {
     .projects-wrapper {
         height: 2000px;
@@ -100,6 +100,28 @@
         'four'
         'five'
         'six';
+
+        margin-top: 50px;
+        width: 80%;
+    }
+    .project {
+        border-radius: 30px;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1650px)
+{
+    .projects-wrapper {
+        height: 1300px;
+    }
+
+    .projects-grid {
+        grid-template-areas: 
+        'one two'
+        'three four'
+        'five six';
 
         margin-top: 50px;
         width: 80%;

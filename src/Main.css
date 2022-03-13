@@ -18,3 +18,8 @@ a {
 .wrapper {
     overflow: hidden;
 }
+
+button {
+    background-color: #e08712;
+    color: #fff;
+}

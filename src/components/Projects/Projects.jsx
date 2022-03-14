@@ -55,13 +55,13 @@ const Projects = () => {
         <div className='projects-grid'>
           { 
             projects.map((item) => (
-              <a href={item.links.website} target="_blank">
+              <a href={item.links.website} target="_blank" >
                 <div className={'project ' + item.project_id} style={{ backgroundImage: 'linear-gradient(transparent, rgba(18,18,18,1) 100%), url(' + item.display_img + ')'}}>
                   <h1>{item.project_name}</h1>
                   { item.links.github == "" && item.links.website == "" ? null :
-                    <div>
-                      { item.links.github != "" ? <a target="_blank" href={item.links.github}><FaGithub className='icon'/></a> : null }
-                      { item.links.website != "" ? <a target="_blank" href={item.links.website}><FaEye className='icon'/></a> : null }
+                    <div className='project-links'>
+                      { item.links.github != "" ? <a target="_blank" href={item.links.github} aria-label="Visit the github"><FaGithub className='icon github' aria-hidden="true" /></a> : null }
+                      { item.links.website != "" ? <a target="_blank" href={item.links.website} aria-label="Visit the website"><FaEye className='icon website' aria-hidden="true"/></a> : null }
                     </div>
                   }
                 </div>

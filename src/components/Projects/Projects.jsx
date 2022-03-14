@@ -7,11 +7,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
   const projects = [
-    { project_id: 'one', project_name: 'Four Website', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/four.png', links: { github: '', website: '' } },
-    { project_id: 'two', project_name: 'Tip Calculator', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/tipcalc.png', links: { github: 'https://github.com/TravisDevLife/tip-calculator', website: 'https://tipcalculatorr.herokuapp.com/' } },
-    { project_id: 'three', project_name: 'Portfolio', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/portfolio.png', links: { github: 'https://github.com/TravisDevLife/portfolio', website: '' } },
-    { project_id: 'four', project_name: 'Advice Generator', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/advice.png', links: { github: 'https://github.com/TravisDevLife/advice-generator', website: 'https://advice-generatorr.herokuapp.com/' } },
-    { project_id: 'five', project_name: 'Huddle Landing Page', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/huddle.png', links: { github: 'https://github.com/TravisDevLife/huddle-landing-page', website: 'https://huddlelp.herokuapp.com/' } },
+    { project_id: 'one', project_name: 'Four Website', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/four.webp', links: { github: '', website: '' } },
+    { project_id: 'two', project_name: 'Tip Calculator', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/tipcalc.webp', links: { github: 'https://github.com/TravisDevLife/tip-calculator', website: 'https://tipcalculatorr.herokuapp.com/' } },
+    { project_id: 'three', project_name: 'Portfolio', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/portfolio.webp', links: { github: 'https://github.com/TravisDevLife/portfolio', website: '' } },
+    { project_id: 'four', project_name: 'Advice Generator', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/advice.webp', links: { github: 'https://github.com/TravisDevLife/advice-generator', website: 'https://advice-generatorr.herokuapp.com/' } },
+    { project_id: 'five', project_name: 'Huddle Landing Page', short_desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil fugiat, ratione quo reprehenderit explicabo totam.', display_img: 'images/huddle.webp', links: { github: 'https://github.com/TravisDevLife/huddle-landing-page', website: 'https://huddlelp.herokuapp.com/' } },
   ];
 
   useEffect(() => {
@@ -55,7 +55,7 @@ const Projects = () => {
         <div className='projects-grid'>
           { 
             projects.map((item) => (
-              <a href={item.links.website} target="_blank" >
+              <a href={item.links.website} target="_blank" key={item.project_id} >
                 <div className={'project ' + item.project_id} style={{ backgroundImage: 'linear-gradient(transparent, rgba(18,18,18,1) 100%), url(' + item.display_img + ')'}}>
                   <h1>{item.project_name}</h1>
                   { item.links.github == "" && item.links.website == "" ? null :

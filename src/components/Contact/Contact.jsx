@@ -48,7 +48,7 @@ const Contact = () => {
             <h1 className='contact-me-header'>Contact Me</h1>
             { result ? <Result /> : null }
             <div className='contact-me-wrapper'>
-                <img src='images/contact.svg' />
+                <img src='images/contact.svg' alt="Girl holding phone on knee" />
                 <form ref={form} className='contact-me-container' onSubmit={sendEmail}>
                     <label>Full Name:</label>
                     <input name='name' type='text' placeholder="Curious George" required />

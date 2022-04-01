@@ -79,7 +79,6 @@
     width: 50px;
     font-size: 20px;
     color: #e08712;
-    cursor: pointer;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px)
@@ -148,7 +147,7 @@
 {
     .about-wrapper 
     {
-        height: 800px;
+        height: 880px;
     }
     
     .about-section-wrapper {

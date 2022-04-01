@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react'
 import './About.css'
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaMicrosoft, FaReact, FaBuffer, FaDatabase } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaNodeJs, FaMicrosoft, FaReact, FaDatabase } from 'react-icons/fa'
+import { DiMongodb } from 'react-icons/di'
+import { SiExpress } from 'react-icons/si'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger);
@@ -49,12 +51,16 @@ const About = () => {
                 <h1>JAVAS</h1>
               </div>
               <div className='skill-container'>
+                <SiExpress className='skill'/>
+                <h1>EXPRESS</h1>
+              </div>
+              <div className='skill-container'>
                 <FaMicrosoft className='skill'/>
                 <h1>.NET</h1>
               </div>
               <div className='skill-container'>
-                <FaBuffer className='skill'/>
-                <h1>IL LIB</h1>
+                <DiMongodb className='skill'/>
+                <h1>MONGODB</h1>
               </div>
               <div className='skill-container'>
                 <FaDatabase className='skill'/>

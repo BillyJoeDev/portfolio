@@ -62,13 +62,19 @@
     gap: 30px;
 }
 
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .skill-container h1 {
-    margin: -5px 0 0 9px;
+    margin: -5px 0 0 4px;
 }
 
 .skill {
     position: relative;
-    margin: 10px 30px 10px 0;
+    margin: 10px 0 10px 0;
     height: 50px;
     width: 50px;
     font-size: 20px;

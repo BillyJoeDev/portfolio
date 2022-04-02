@@ -31,7 +31,7 @@ const About = () => {
             <img src='images/about-image.svg' alt="Guy at desk looking at laptop next to window at night time" />
           </div>
           <div className='about-section'>
-            <p>I specialize in building the frontend of websites, although I do like to flash some of my backend experince when I can. I have done work in software development, front-end/back-end web, database/server management, graphic design, and video game development. I hate coffee, but love me some good pizza and vitamin water. Last but no least, after a good day of slamming my fingers I love to use the other parts of my hand to lift weights in the gym.</p>
+            <p>I specialize in building the frontend of websites, although I do like to flash some of my backend experience when I can. I have done work in software development, front-end/back-end web, database/server management, graphic design, and video game development. I hate coffee, but love me some good pizza and vitamin water. Last but not least, after a good day of slamming my fingers, I love to use the other parts of my hand to lift weights in the gym.</p>
             <h1>My Skills:</h1>
             <div className='skills-section'>
               <div className='skill-container'>

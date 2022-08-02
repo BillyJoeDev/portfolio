@@ -7,7 +7,7 @@ const Hero = () => {
     <header>
         <div className='hero-text-container'>
             <h1 className='welcome-text'>HELLO! I'M <span className='welcome-text alt-color'>TRAVIS</span></h1>
-            <p className='role-type'>I AM A <span className='role-type alt-color'>FRONTEND</span> DEVELOPER.</p>
+            <p className='role-type'>I AM A <span className='role-type alt-color'>SOFTWARE</span> ENGINEER.</p>
             <Link to='contact' activeClass="active" smooth={true} spy={true} duration={500} offset={-90}><button className='contact-me'>Contact Me</button></Link>
             <Link to='projects' activeClass="active" smooth={true} spy={true} duration={500} offset={-90}><button className='view-projects'>View Projects</button></Link>
             <div className='social-icons'>

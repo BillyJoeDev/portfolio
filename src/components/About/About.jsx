@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './About.css'
-import { FaHtml5, FaCss3Alt, FaNodeJs, FaMicrosoft, FaReact, FaDatabase } from 'react-icons/fa'
+import { FaPhp, FaNodeJs, FaMicrosoft, FaReact, FaDatabase } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
 import { SiExpress } from 'react-icons/si'
 import gsap from 'gsap'
@@ -35,14 +35,6 @@ const About = () => {
             <h1>My Skills:</h1>
             <div className='skills-section'>
               <div className='skill-container'>
-                <FaHtml5 className='skill'/>
-                <h1>HTML</h1>
-              </div>
-              <div className='skill-container'>
-                <FaCss3Alt className='skill'/>
-                <h1>CSS</h1>
-              </div>
-              <div className='skill-container'>
                 <FaReact className='skill'/>
                 <h1>REACT</h1>
               </div>
@@ -65,6 +57,10 @@ const About = () => {
               <div className='skill-container'>
                 <FaDatabase className='skill'/>
                 <h1>MYSQL</h1>
+              </div>
+              <div className='skill-container'>
+                <FaPhp className='skill'/>
+                <h1>PHP</h1>
               </div>
             </div>
           </div>

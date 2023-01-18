@@ -185,12 +185,7 @@ const Projects = () => {
 			<h1 className="my-projects-header">My Projects</h1>
 			<div className="projects-grid">
 				{projects.map((item) => (
-					<a
-						href={item.links.website}
-						target="_blank"
-						key={item.project_id}
-						rel="noreferrer"
-					>
+					<div key={item.project_id}>
 						<div
 							className={'project ' + item.project_id}
 							style={{
@@ -244,7 +239,7 @@ const Projects = () => {
 								</div>
 							)}
 						</div>
-					</a>
+					</div>
 				))}
 			</div>
 		</div>

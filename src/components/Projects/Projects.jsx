@@ -9,6 +9,30 @@ const Projects = () => {
 	const projects = [
 		{
 			project_id: 'one',
+			project_name: 'Codefling',
+			short_desc:
+				'This is a marketplace website, which allows vendors to sell products as well as customers being able to purchase, download, review, ect. Site has own credit system, which allows users to buy credit or vendors to withdraw the credit from their wallet.',
+			display_img: 'images/codefling.webp',
+			links: {
+				github: '',
+				website: 'https://codefling.com/',
+				purchase: '',
+			},
+		},
+		{
+			project_id: 'two',
+			project_name: 'Exclusively Imports',
+			short_desc:
+				'Website was made with plain js, as not much was requested other then a landing page for there company. Product was delivered fully responsive within 3 days.',
+			display_img: 'images/exclusively.webp',
+			links: {
+				github: '',
+				website: 'https://exclusivelyimportsautorepair.com/',
+				purchase: '',
+			},
+		},
+		{
+			project_id: 'three',
 			project_name: 'Vanity Rust',
 			short_desc:
 				'This was a freelance project for a company, I decided to make this website in PHP as they didnt want a backend overhead.',
@@ -20,10 +44,10 @@ const Projects = () => {
 			},
 		},
 		{
-			project_id: 'two',
+			project_id: 'four',
 			project_name: 'RPS API',
 			short_desc:
-				'This was another freelance project for a game development company, they wanted a backend site that there developers could use to add/edit devblogs with thier work.',
+				'This was a product for a game development company, they wanted a backend site that there developers could use to add/edit devblogs with thier work. Decided to use the MERN stack for saving developers login info, and react do to the perf gain.',
 			display_img: 'images/API.webp',
 			links: {
 				github: '',
@@ -32,7 +56,7 @@ const Projects = () => {
 			},
 		},
 		{
-			project_id: 'three',
+			project_id: 'five',
 			project_name: 'Travcord',
 			short_desc:
 				'This project was to test my Frontend skills by recreating the Discord landing page, had to rename for IP Reasons.',
@@ -40,30 +64,6 @@ const Projects = () => {
 			links: {
 				github: 'https://github.com/TravisDevLife/travcord',
 				website: 'https://travcord.netlify.app/',
-				purchase: '',
-			},
-		},
-		{
-			project_id: 'four',
-			project_name: 'Bookmark',
-			short_desc:
-				'A landing page designed in Figma and brought to light using HTML & CSS.',
-			display_img: 'images/Bookmark.webp',
-			links: {
-				github: 'https://github.com/TravisDevLife/bookmark-landing',
-				website: 'https://bookmarklandingp.netlify.app/',
-				purchase: '',
-			},
-		},
-		{
-			project_id: 'five',
-			project_name: 'Misfits Boxing',
-			short_desc:
-				'A website built in React for a boxing promotion company, allowing users to vote on the fighters that are on the active card.',
-			display_img: 'images/MisfitsBoxing.webp',
-			links: {
-				github: '',
-				website: 'https://misfitsboxing.netlify.app/',
 				purchase: '',
 			},
 		},

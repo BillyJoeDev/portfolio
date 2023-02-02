@@ -75,7 +75,7 @@ const Projects = () => {
 			display_img: 'images/stats.webp',
 			links: {
 				github: '',
-				website: 'https://i.gyazo.com/c9dd9fe4b11f1114df818599a311462c.mp4',
+				website: 'https://stats.rustopia.dev/',
 				purchase: 'https://codefling.com/plugins/better-statistics',
 			},
 		},

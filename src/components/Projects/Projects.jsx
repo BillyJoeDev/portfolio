@@ -11,7 +11,7 @@ const Projects = () => {
 			project_id: 'one',
 			project_name: 'Codefling',
 			short_desc:
-				'This is a marketplace website, which allows vendors to sell products as well as customers being able to purchase, download, review, ect. Site has own credit system, which allows users to buy credit or vendors to withdraw the credit from their wallet.',
+				'This is a marketplace website, which allows vendors to sell products as well as customers able to purchase, download, review, etc. The site has its own credit system, which allows users to buy credit or vendors to withdraw the credit from their wallet.',
 			display_img: 'images/codefling.webp',
 			links: {
 				github: '',
@@ -23,7 +23,7 @@ const Projects = () => {
 			project_id: 'two',
 			project_name: 'Exclusively Imports',
 			short_desc:
-				'Website was made with plain js, as not much was requested other then a landing page for there company. Product was delivered fully responsive within 3 days.',
+				'The website was made with plain js, as not much was requested other than a landing page for their company. The product was delivered fully responsive within 3 days.',
 			display_img: 'images/exclusively.webp',
 			links: {
 				github: '',
@@ -35,7 +35,7 @@ const Projects = () => {
 			project_id: 'three',
 			project_name: 'Vanity Rust',
 			short_desc:
-				'This was a freelance project for a company, I decided to make this website in PHP as they didnt want a backend overhead.',
+				'This was a freelance project for a company. I decided to make this website in PHP as they did not want a backend overhead.',
 			display_img: 'images/Vanity.webp',
 			links: {
 				github: '',
@@ -47,7 +47,7 @@ const Projects = () => {
 			project_id: 'four',
 			project_name: 'RPS API',
 			short_desc:
-				'This was a product for a game development company, they wanted a backend site that there developers could use to add/edit devblogs with thier work. Decided to use the MERN stack for saving developers login info, and react do to the perf gain.',
+				'This was a product for a game development company. They wanted a backend site that their developers could use to add/edit devblogs with their work. Decided to use the MERN stack for saving developers login info, and used React for instantaneous DOM updates.',
 			display_img: 'images/API.webp',
 			links: {
 				github: '',
@@ -59,7 +59,7 @@ const Projects = () => {
 			project_id: 'five',
 			project_name: 'Travcord',
 			short_desc:
-				'This project was to test my Frontend skills by recreating the Discord landing page, had to rename for IP Reasons.',
+				'This project was to test my Frontend skills by recreating the Discord landing page, which had to be renamed it for IP Reasons.',
 			display_img: 'images/Travcord.webp',
 			links: {
 				github: 'https://github.com/TravisDevLife/travcord',
@@ -71,7 +71,7 @@ const Projects = () => {
 			project_id: 'six',
 			project_name: 'Stats Website',
 			short_desc:
-				'An advanced PHP statistics website for Rust Servers. Product is currently for sale on multiple sites and has grossed over $500.',
+				'An advanced PHP statistics website for Rust Servers. The product is currently for sale on multiple sites and has grossed over $1,000.',
 			display_img: 'images/stats.webp',
 			links: {
 				github: '',

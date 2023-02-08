@@ -68,14 +68,14 @@ const About = () => {
 				</div>
 				<div className="about-section">
 					<p>
-						I specialize in frontend development, although love to do backend
-						work when I can. I have done work in software development industry
-						for around 6+ years. Started off with database/server management,
-						then ventured into game development and finally I have found my love
-						for Web Development. I love helping out developers where I can, and
-						currently am a Code Reviewer for a website known as Codefling.com. I
-						make sure that all developers are pushing through fast and
-						responsive code as well as providing feedback where I can.
+						I specialize in frontend development, although I love to do backend
+						work when I can. I have done work in the software development
+						industry for around 6+ years. I started off with database/server
+						management, then ventured into game development and finally I have
+						found my love for Web Development. I love helping out developers
+						where I can, and currently am a Code Reviewer for a website known as
+						Codefling.com. I make sure that all developers are pushing through
+						fast and responsive code as well as providing feedback where I can.
 					</p>
 					<h1>My Skills:</h1>
 					<div className="skills-section">
